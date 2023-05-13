@@ -1,0 +1,31 @@
+.main-outer {
+  @apply w-full h-screen text-center;
+}
+
+.main-container {
+  @apply max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center;
+}
+
+.main-1st-p {
+  @apply uppercase text-sm tracking-widest text-gray-600;
+}
+
+.main-span {
+  @apply text-[#5651e5];
+}
+
+.main-h1 {
+  @apply py-4 text-gray-700;
+}
+
+.main-2nd-p {
+  @apply py-4 text-gray-600 max-w-[60%] m-auto;
+}
+
+.main-menu-container {
+  @apply flex items-center justify-between max-w-[330px] m-auto py-4;
+}
+
+.main-menu-items {
+  @apply rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300;
+}

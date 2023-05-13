@@ -1,0 +1,39 @@
+.certificate-outer {
+  @apply w-full;
+}
+
+.certificate-container {
+  @apply max-w-[1240px] mx-auto px-2 py-16;
+}
+
+.image-container {
+  @apply w-full h-full rounded-xl shadow-xl shadow-gray-400;
+}
+
+.cert-img {
+  @apply max-h-[750px];
+}
+
+.certificate-container-1st-p {
+  @apply text-xl tracking-widest uppercase text-[#5651e5];
+}
+
+.certificate-container-1st-h2 {
+  @apply py-4;
+}
+
+.cert-img-p {
+  @apply my-2;
+}
+
+.backtotop-button {
+  @apply flex justify-center py-12;
+}
+
+.icon-container {
+  @apply rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300;
+}
+
+.icon {
+  @apply text-[#5651e5];
+}

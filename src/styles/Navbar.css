@@ -1,0 +1,79 @@
+.navbar-container {
+  @apply fixed w-full h-20 shadow-xl z-[100];
+}
+
+.navbar-container-scroll {
+  @apply fixed w-full h-20 z-[100];
+}
+
+.navbar-logo {
+  @apply flex justify-between items-center w-full h-full px-2 2xl:px-16;
+}
+
+.navbar-menu {
+  @apply ml-10 text-sm uppercase hover:border-b;
+}
+
+.menu-container {
+  @apply hidden md:flex;
+}
+
+.menu-slide {
+  @apply md:hidden;
+}
+
+.sidebar-slide {
+  @apply md:hidden fixed left-0 w-full h-screen bg-black/70;
+}
+
+.sidebar-container {
+  @apply md:hidden fixed left-0 top-0 w-[75%] sm:w-[65%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500;
+}
+
+.sidebar-container-inactive {
+  @apply fixed left-[-100%] top-0 p-10 ease-in duration-500;
+}
+
+.sidebar-logo {
+  @apply flex w-full items-center justify-between;
+}
+
+.sidebar-close {
+  @apply rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer w-10;
+}
+
+.sidebar-text-container {
+  @apply border-b border-gray-300 my-4;
+}
+
+.sidebar-text {
+  @apply w-[85%] md:w-[90%] py-4;
+}
+
+.sidebar-menu {
+  @apply py-4 text-sm;
+}
+
+.sidebar-menu-container {
+  @apply uppercase;
+}
+
+.sidebar-outer {
+  @apply py-4 flex flex-col;
+}
+
+.sidebar-bot {
+  @apply pt-40;
+}
+
+.sidebar-bot p {
+  @apply uppercase tracking-widest text-[#5651e5];
+}
+
+.bot-icon {
+  @apply rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300;
+}
+
+.bot-icon-container {
+  @apply flex items-center justify-between my-4 w-full sm:w-[80%];
+}

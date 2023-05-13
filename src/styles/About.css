@@ -1,0 +1,35 @@
+.about-outer {
+  @apply w-full md:h-screen p-2 flex items-center py-16;
+}
+
+.about-container {
+  @apply max-w-[1240px] m-auto md:grid grid-cols-3 gap-8;
+}
+
+.left-container {
+  @apply col-span-2;
+}
+
+.about-1st-p {
+  @apply uppercase text-xl tracking-widest text-[#5651e5];
+}
+
+.about-h2 {
+  @apply py-4;
+}
+
+.about-2nd-p {
+  @apply py-2 text-gray-600;
+}
+
+.about-3rd-p {
+  @apply py-2 text-gray-600 underline cursor-pointer;
+}
+
+.about-image-container {
+  @apply w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-2 hover:scale-105 ease-in duration-700;
+}
+
+.about-image {
+  @apply rounded-xl;
+}

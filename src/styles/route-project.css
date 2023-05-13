@@ -1,0 +1,63 @@
+.route-project-outer {
+  @apply w-full;
+}
+
+.route-project-container {
+  @apply w-screen h-[30vh] lg:h-[40vh] relative;
+}
+
+.route-project-top {
+  @apply absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10;
+}
+
+.route-project-img {
+  @apply absolute;
+}
+
+.top-text-container {
+  @apply absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2;
+}
+
+.top-text-h2 {
+  @apply py-2;
+}
+
+.bottom-text-container {
+  @apply max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8;
+}
+
+.bottom-text {
+  @apply col-span-4;
+}
+
+.route-project-button {
+  @apply px-8 py-2 mt-4 mr-8;
+}
+
+.tech-container {
+  @apply col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4;
+}
+
+.tech-p-container {
+  @apply p-2;
+}
+
+.tech-1st-p {
+  @apply text-center font-bold pb-2;
+}
+
+.tech-items {
+  @apply text-gray-600 py-2 flex items-center;
+}
+
+.tech-icon {
+  @apply pr-1;
+}
+
+.tech-items-container {
+  @apply grid grid-cols-3 md:grid-cols-1;
+}
+
+.back-button {
+  @apply underline cursor-pointer;
+}
