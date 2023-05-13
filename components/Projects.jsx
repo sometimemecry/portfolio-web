@@ -10,7 +10,7 @@ export default function Projects() {
     <div id="projects" className="projects-outer">
       <div className="projects-container">
         <p className="projects-1st-p">Projects</p>
-        <h2 className="projects-1st-h2">What I've Built</h2>
+        <h2 className="projects-1st-h2">What I&apos;ve Built</h2>
         <div className="projects-card-container">
           <ProjectItem
             title="Colmar Academy"

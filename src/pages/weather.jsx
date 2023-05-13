@@ -14,6 +14,7 @@ export default function weather() {
           layout="fill"
           objectFit="cover"
           src={weatherImg}
+          alt=""
         />
         <div className="top-text-container">
           <h2 className="top-text-h2">Weather</h2>
@@ -25,11 +26,11 @@ export default function weather() {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            "This project is used for me to practice using APIs and integrating
-            data obtained from APIs. The project is built with Next.js as the
-            main framework and styled with Tailwind. Within the project, Axios
-            is used to send API requests to OpenWeather in order to display
-            weather data."
+            &quot;This project is used for me to practice using APIs and
+            integrating data obtained from APIs. The project is built with
+            Next.js as the main framework and styled with Tailwind. Within the
+            project, Axios is used to send API requests to OpenWeather in order
+            to display weather data.&quot;
           </p>
           <a
             href="https://weather-app-sometimemecry.vercel.app/"

@@ -4,17 +4,20 @@ import { RiRadioButtonFill } from "react-icons/ri";
 import colmarImg from "../../public/assets/projects/Colmar.png";
 import Link from "next/link";
 
-export default function colmar() {
+export default function Colmar() {
   return (
     <div className="route-project-outer">
       <div className="route-project-container">
         <div className="route-project-top" />
-        <Image
-          className="route-project-img"
-          layout="fill"
-          objectFit="cover"
-          src={colmarImg}
-        />
+        <div className="route-project-img-container">
+          <Image
+            className="route-project-img"
+            layout="fill"
+            objectFit="cover"
+            src={colmarImg}
+            alt="Colmar Academy project"
+          />
+        </div>
         <div className="top-text-container">
           <h2 className="top-text-h2">Colmar Academy</h2>
           <h3 className="top-text-h3">HTML / CSS</h3>
@@ -25,14 +28,18 @@ export default function colmar() {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            "This project is from Codecademy and is used as an assessment to
-            test knowledge of HTML and CSS within the JSD4 bootcamp of
+            &ldquo;This project is from Codecademy and is used as an assessment
+            to test knowledge of HTML and CSS within the JSD4 bootcamp of
             Generation Thailand. This assessment/test is given to evaluate the
-            skills of participants."
+            skills of participants.&rdquo;
           </p>
 
           <button className="route-project-button">
-            <a href="https://sometimemecry-colmar.vercel.app/" target="_blank">
+            <a
+              href="https://sometimemecry-colmar.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Demo
             </a>
           </button>
@@ -40,6 +47,7 @@ export default function colmar() {
             <a
               href="https://github.com/sometimemecry/Colmar-Academy"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Code
             </a>

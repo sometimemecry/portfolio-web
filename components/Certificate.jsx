@@ -15,22 +15,22 @@ export default function Certificate() {
     <div id="certificate" className="certificate-outer">
       <div className="certificate-container">
         <p className="certificate-container-1st-p">Certificate</p>
-        <h2 className="certificate-container-1st-h2">What I've Learned</h2>
+        <h2 className="certificate-container-1st-h2">What I&apos;ve Learned</h2>
         <Carousel className="image-container">
           <div>
-            <Image className="cert-img" src={HTMLcer} />
+            <Image className="cert-img" src={HTMLcer} alt="" />
           </div>
           <div>
-            <Image className="cert-img" src={CSScer} />
+            <Image className="cert-img" src={CSScer} alt="" />
           </div>
           <div>
-            <Image className="cert-img" src={JScer} />
+            <Image className="cert-img" src={JScer} alt="" />
           </div>
           <div>
-            <Image className="cert-img" src={reactcer} />
+            <Image className="cert-img" src={reactcer} alt="" />
           </div>
           <div>
-            <Image className="cert-img" src={mongoaggre} />
+            <Image className="cert-img" src={mongoaggre} alt="" />
           </div>
         </Carousel>
       </div>

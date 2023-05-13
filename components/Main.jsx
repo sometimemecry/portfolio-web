@@ -10,11 +10,11 @@ export default function Main() {
         <div>
           <p className="main-1st-p"></p>
           <h1 className="main-h1">
-            Hi, I'm <span className="main-span"> Songphon</span>
+            Hi, I&apos;m <span className="main-span"> Songphon</span>
           </h1>
           <h1 className="main-h1">A Frontend Web Developer</h1>
           <p className="main-2nd-p">
-            I'm focused on building frontend web applications integrating
+            I&apos;m focused on building frontend web applications integrating
             back-end technologies
           </p>
           <div className="main-menu-container">

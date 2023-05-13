@@ -50,7 +50,7 @@ export default function Navbar() {
       style={{ backgroundColor: `${navBg}` }}
     >
       <div className="navbar-logo">
-        <Image />
+        <Image alt="" />
         <div>
           <ul className="menu-container" style={{ color: `${linkColor}` }}>
             <Link href="/">
@@ -80,7 +80,7 @@ export default function Navbar() {
         >
           <div>
             <div className="sidebar-logo">
-              <Image />
+              <Image alt="" />
               <div onClick={handleNav} className="sidebar-close">
                 <AiOutlineClose />
               </div>
@@ -118,7 +118,7 @@ export default function Navbar() {
               </Link>
             </ul>
             <div className="sidebar-bot">
-              <p>Let's Connect</p>
+              <p>Let&apos;s Connect</p>
               <div className="bot-icon-container">
                 <div className="bot-icon">
                   <a

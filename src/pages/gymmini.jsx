@@ -14,6 +14,7 @@ export default function gymmini() {
           layout="fill"
           objectFit="cover"
           src={gymminiImg}
+          alt=""
         />
         <div className="top-text-container">
           <h2 className="top-text-h2">Gymmini</h2>
@@ -25,14 +26,14 @@ export default function gymmini() {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            "This project is the final project of JSD4 bootcamp from Generation
-            Thailand, which is an activity tracker project that can create cards
-            to record input data such as title, duration, distance, date, and
-            description, and also allows editing or deleting those cards. This
-            project implements CRUD functionality using Next.js as the core
-            framework, Tailwind for styling, Express and Axios for API
+            &quot;This project is the final project of JSD4 bootcamp from
+            Generation Thailand, which is an activity tracker project that can
+            create cards to record input data such as title, duration, distance,
+            date, and description, and also allows editing or deleting those
+            cards. This project implements CRUD functionality using Next.js as
+            the core framework, Tailwind for styling, Express and Axios for API
             development to connect with the backend, and MongoDB as the
-            database."
+            database.&quot;
           </p>
           <button className="route-project-button">Demo</button>
           <button className="route-project-button">Code</button>
