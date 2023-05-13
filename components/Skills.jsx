@@ -1,5 +1,13 @@
 import Image from "next/image";
 import React from "react";
+import htmlImg from "../public/assets/skills/html.png";
+import cssImg from "../public/assets/skills/css.png";
+import jsImg from "../public/assets/skills/javascript.png";
+import reactImg from "../public/assets/skills/react.png";
+import nextImg from "../public/assets/skills/nextjs.png";
+import tailwindImg from "../public/assets/skills/tailwind.png";
+import githubImg from "../public/assets/skills/github1.png";
+import mongoImg from "../public/assets/skills/mongo.png";
 
 export default function Skills() {
   return (
@@ -11,12 +19,7 @@ export default function Skills() {
           <div className="skills-items">
             <div className="skills-items-inner">
               <div className="skills-items-image">
-                <Image
-                  src="/../public/assets/skills/html.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={htmlImg} width="64" height="64" alt="/" />
               </div>
               <div className="skills-text">
                 <h3>HTML</h3>
@@ -26,12 +29,7 @@ export default function Skills() {
           <div className="skills-items">
             <div className="skills-items-inner">
               <div className="skills-items-image">
-                <Image
-                  src="/../public/assets/skills/css.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={cssImg} width="64" height="64" alt="/" />
               </div>
               <div className="skills-text">
                 <h3>CSS</h3>
@@ -41,12 +39,7 @@ export default function Skills() {
           <div className="skills-items">
             <div className="skills-items-inner">
               <div className="skills-items-image">
-                <Image
-                  src="/../public/assets/skills/javascript.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={jsImg} width="64" height="64" alt="/" />
               </div>
               <div className="skills-text">
                 <h3>JavaScript</h3>
@@ -56,12 +49,7 @@ export default function Skills() {
           <div className="skills-items">
             <div className="skills-items-inner">
               <div className="skills-items-image">
-                <Image
-                  src="/../public/assets/skills/react.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={reactImg} width="64" height="64" alt="/" />
               </div>
               <div className="skills-text">
                 <h3>React</h3>
@@ -71,12 +59,7 @@ export default function Skills() {
           <div className="skills-items">
             <div className="skills-items-inner">
               <div className="skills-items-image">
-                <Image
-                  src="/../public/assets/skills/nextjs.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={nextImg} width="64" height="64" alt="/" />
               </div>
               <div className="skills-text">
                 <h3>Next.Js</h3>
@@ -86,12 +69,7 @@ export default function Skills() {
           <div className="skills-items">
             <div className="skills-items-inner">
               <div className="skills-items-image">
-                <Image
-                  src="/../public/assets/skills/tailwind.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={tailwindImg} width="64" height="64" alt="/" />
               </div>
               <div className="skills-text">
                 <h3>Tailwind</h3>
@@ -101,12 +79,7 @@ export default function Skills() {
           <div className="skills-items">
             <div className="skills-items-inner">
               <div className="skills-items-image">
-                <Image
-                  src="/../public/assets/skills/github1.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={githubImg} width="64" height="64" alt="/" />
               </div>
               <div className="skills-text">
                 <h3>GitHub</h3>
@@ -116,12 +89,7 @@ export default function Skills() {
           <div className="skills-items">
             <div className="skills-items-inner">
               <div className="skills-items-image">
-                <Image
-                  src="/../public/assets/skills/mongo.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={mongoImg} width="64" height="64" alt="/" />
               </div>
               <div className="skills-text">
                 <h3>MongoDB</h3>
