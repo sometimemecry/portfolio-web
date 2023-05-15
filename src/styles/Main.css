@@ -15,17 +15,17 @@
 }
 
 .main-h1 {
-  @apply py-4 text-gray-700;
+  @apply py-8 text-gray-700;
 }
 
 .main-2nd-p {
-  @apply py-4 text-gray-600 max-w-[60%] m-auto;
+  @apply py-8 text-gray-600 max-w-[60%] m-auto text-lg;
 }
 
 .main-menu-container {
-  @apply flex items-center justify-between max-w-[330px] m-auto py-4;
+  @apply flex items-center justify-between max-w-[330px] m-auto py-6;
 }
 
 .main-menu-items {
-  @apply rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300;
+  @apply rounded-full shadow-md shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300;
 }

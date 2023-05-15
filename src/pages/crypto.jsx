@@ -27,17 +27,17 @@ export default function CryptoBase() {
           <h2>Overview</h2>
           <p>
             &ldquo;This project is a practice project for me to learn how to use
-            APIs. The main framework of this project is React, and the styling
-            is done using Tailwind. The API requests are made using Axios to
-            query the CoinGecko API for cryptocurrency data, which is then
-            mapped and displayed in a table. For user management, Firebase Auth
-            is used to handle sign-ins, sign-ups, and logouts throughout the
-            system. When a user signs up and logs in, they can click a star icon
-            on the crypto page they want to add to their watchlist. When the
-            user visits their account page, the cryptocurrencies they&rsquo;ve
-            chosen will be displayed. The watchlist management uses Firestore
-            database to store the data for each user&rsquo;s selected
-            cryptocurrency, and the project is deployed using Firebase.&rdquo;
+            APIs. The main framework for this project is React, and the styling
+            is done using Tailwind. API requests are made using Axios to query
+            the CoinGecko API for cryptocurrency data, which is then mapped and
+            displayed in a table. For user management, Firebase Auth is used to
+            handle sign-ins, sign-ups, and logouts throughout the system. When a
+            user signs up and logs in, they can click a star icon on the crypto
+            page to add it to their watchlist. When the user visits their
+            account page, the cryptocurrencies they have chosen will be
+            displayed. Watchlist management uses the Firestore database to store
+            data for each user's selected cryptocurrency, and the project is
+            deployed using Firebase.&rdquo;
           </p>
           <a
             href="https://cryptobase-3130a.web.app/"

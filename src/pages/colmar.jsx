@@ -28,10 +28,10 @@ export default function Colmar() {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            &ldquo;This project is from Codecademy and is used as an assessment
-            to test knowledge of HTML and CSS within the JSD4 bootcamp of
-            Generation Thailand. This assessment/test is given to evaluate the
-            skills of participants.&rdquo;
+            &ldquo;This project is from Codecademy and is being used as an
+            assessment to test participants' knowledge of HTML and CSS within
+            the JSD4 bootcamp of Generation Thailand. The assessment/test is
+            being given to evaluate the skills of the participants.&rdquo;
           </p>
 
           <button className="route-project-button">

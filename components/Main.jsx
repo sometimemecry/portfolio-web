@@ -14,8 +14,8 @@ export default function Main() {
           </h1>
           <h1 className="main-h1">A Frontend Web Developer</h1>
           <p className="main-2nd-p">
-            I&apos;m focused on building frontend web applications integrating
-            back-end technologies
+            I focus on building exceptional frontend web applications
+            integrating with cutting-edge backend technologies.
           </p>
           <div className="main-menu-container">
             <a

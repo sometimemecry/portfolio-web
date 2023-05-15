@@ -13,11 +13,11 @@ export default function About() {
           <p className="about-2nd-p">
             I am a recent graduate of the Junior Software Developer program at
             Generation Thailand, with solid technical skills in web development
-            using React, Tailwind, Express and MongoDB. I also have two years of
+            with React, Tailwind, Node, and MongoDB. I also have two years of
             experience working as a food delivery rider, which has improved my
             communication skills and problem-solving abilities. My goal is to
             secure a position as a Frontend Developer, where I can use my
-            technical expertise and prior experience to help my team succeed.
+            technical expertise and previous experience to help my team succeed.
           </p>
           <p className="about-3rd-p">
             <Link href="/#projects">

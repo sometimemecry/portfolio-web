@@ -26,11 +26,11 @@ export default function weather() {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            &quot;This project is used for me to practice using APIs and
-            integrating data obtained from APIs. The project is built with
-            Next.js as the main framework and styled with Tailwind. Within the
-            project, Axios is used to send API requests to OpenWeather in order
-            to display weather data.&quot;
+            &quot;This project is for me to practice using APIs and integrating
+            data obtained from them. The project is built with Next.js as the
+            main framework and styled with Tailwind. In this project, Axios is
+            used to send API requests to OpenWeather to display weather
+            data.&quot;
           </p>
           <a
             href="https://weather-app-sometimemecry.vercel.app/"

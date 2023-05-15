@@ -8,6 +8,10 @@ import nextImg from "../public/assets/skills/nextjs.png";
 import tailwindImg from "../public/assets/skills/tailwind.png";
 import githubImg from "../public/assets/skills/github1.png";
 import mongoImg from "../public/assets/skills/mongo.png";
+import firebaseImg from "../public/assets/skills/firebase.png";
+import nodeImg from "../public/assets/skills/node.png";
+import jiraImg from "../public/assets/skills/jira.png";
+import figmaImg from "../public/assets/skills/figma.png";
 
 export default function Skills() {
   return (
@@ -83,6 +87,46 @@ export default function Skills() {
               </div>
               <div className="skills-text">
                 <h3>GitHub</h3>
+              </div>
+            </div>
+          </div>
+          <div className="skills-items">
+            <div className="skills-items-inner">
+              <div className="skills-items-image">
+                <Image src={firebaseImg} width="64" height="64" alt="/" />
+              </div>
+              <div className="skills-text">
+                <h3>Firebase</h3>
+              </div>
+            </div>
+          </div>
+          <div className="skills-items">
+            <div className="skills-items-inner">
+              <div className="skills-items-image">
+                <Image src={figmaImg} width="64" height="64" alt="/" />
+              </div>
+              <div className="skills-text">
+                <h3>Figma</h3>
+              </div>
+            </div>
+          </div>
+          <div className="skills-items">
+            <div className="skills-items-inner">
+              <div className="skills-items-image">
+                <Image src={jiraImg} width="64" height="64" alt="/" />
+              </div>
+              <div className="skills-text">
+                <h3>Jira</h3>
+              </div>
+            </div>
+          </div>
+          <div className="skills-items">
+            <div className="skills-items-inner">
+              <div className="skills-items-image">
+                <Image src={nodeImg} width="64" height="64" alt="/" />
+              </div>
+              <div className="skills-text">
+                <h3>NodeJs</h3>
               </div>
             </div>
           </div>
