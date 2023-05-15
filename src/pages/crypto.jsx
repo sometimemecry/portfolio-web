@@ -36,8 +36,8 @@ export default function CryptoBase() {
             page to add it to their watchlist. When the user visits their
             account page, the cryptocurrencies they have chosen will be
             displayed. Watchlist management uses the Firestore database to store
-            data for each user's selected cryptocurrency, and the project is
-            deployed using Firebase.&rdquo;
+            data for each user&apos;s selected cryptocurrency, and the project
+            is deployed using Firebase.&rdquo;
           </p>
           <a
             href="https://cryptobase-3130a.web.app/"
