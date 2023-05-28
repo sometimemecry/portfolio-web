@@ -1,6 +1,6 @@
 import React from "react";
 import colmarImg from "../public/assets/projects/Colmar.png";
-import gymminiImg from "../public/assets/projects/Gymmini.png";
+import gymminiImg from "../public/assets/projects/Gymmini1.png";
 import weatherImg from "../public/assets/projects/Weather.png";
 import cryptoImg from "../public/assets/projects/Crypto.png";
 import ProjectItem from "./ProjectItem";
@@ -19,7 +19,7 @@ export default function Projects() {
             toolsUse="HTML CSS"
           />
           <ProjectItem
-            title="Gymmini(In Progress)"
+            title="Gymmini"
             backgroundImg={gymminiImg}
             projectUrl="/gymmini"
             toolsUse="Next Tailwind Express MongoDB"

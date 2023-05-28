@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
-import gymminiImg from "../../public/assets/projects/Gymmini.png";
+import gymminiImg from "../../public/assets/projects/Gymmini1.png";
 import Link from "next/link";
 
 export default function gymmini() {
@@ -18,7 +18,9 @@ export default function gymmini() {
         />
         <div className="top-text-container">
           <h2 className="top-text-h2">Gymmini</h2>
-          <h3 className="top-text-h3">Next / Tailwind / Express / MongoDB</h3>
+          <h3 className="top-text-h3">
+            Next / Tailwin / Firebase / Express / MongoDB
+          </h3>
         </div>
       </div>
       <div className="bottom-text-container">
@@ -35,8 +37,18 @@ export default function gymmini() {
             Axios for API development to connect with the backend, and MongoDB
             as the database.&quot;
           </p>
-          <button className="route-project-button">Demo</button>
-          <button className="route-project-button">Code</button>
+          <Link
+            href="https://actitvity-tracking-web.vercel.app/"
+            target="_blank"
+          >
+            <button className="route-project-button">Demo</button>
+          </Link>
+          <Link
+            href="https://github.com/pkpndLiZ/actitvity-tracking-web"
+            target="_blank"
+          >
+            <button className="route-project-button">Code</button>
+          </Link>
         </div>
         <div className="tech-container">
           <div className="tech-p-container">
@@ -47,6 +59,9 @@ export default function gymmini() {
               </p>
               <p className="tech-items">
                 <RiRadioButtonFill className="tech-icon" /> Tailwind
+              </p>
+              <p className="tech-items">
+                <RiRadioButtonFill className="tech-icon" /> Firebase
               </p>
               <p className="tech-items">
                 <RiRadioButtonFill className="tech-icon" /> Express
